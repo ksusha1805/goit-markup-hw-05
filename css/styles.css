@@ -151,6 +151,10 @@ border-radius: 2px;
 background-color: var(--ocean);
 }
 
+.current{
+    color: var(--ocean);
+}
+
 .header-ref:hover, .header-ref:focus{
     color: var(--ocean);
 }
@@ -525,27 +529,6 @@ transform: translate(0, 100%);
     transition-property: transform;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* .overlay-text{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-margin-left: 32px;
-margin-top: 40px;
-font-size: 16px;
-color: var(--cloud);
-background-color: var(--iris);
-transform: translateY(100%);
-transition-property: transform;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-.row-ref:focus.overlay-text:hover{
-    transform: translateY(0);
 }
 
 .row-img{
