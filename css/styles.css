@@ -647,6 +647,16 @@ letter-spacing: 0.02em;
     background-color: var(--green);
 }
 
+.footer-subscribe{
+    color: var(--white);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+
+
 /*Modal window*/
 .backdrop {
     position: fixed;
@@ -696,4 +706,106 @@ opacity: 0;
 }
 .modal-icon {
     fill: #000000;;
+}
+
+.modal-title{
+    display: block;
+    width: 360px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+margin-top: 72px;
+margin-right: 24px;
+margin-left: 24px;
+}
+
+.modal-title {
+}
+.modal-form {
+    position: relative;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+width: 360px;
+border-radius: 4px;
+top: 16px;
+margin: auto 16px;
+}
+.modal-form-label {
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.3;
+letter-spacing: 0.04em;
+color: var(--light-slate);
+}
+.modal-form-div {
+}
+.modal-form-input {
+    width: 360px;
+}
+.modal-form-icon {
+}
+.modal-form-comment {
+    width: 360px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.3;
+letter-spacing: 0.04em;
+color: rgba(117, 117, 117, 0.5);
+padding-top: 8px;
+padding-left: 16px;
+}
+.modal-form-agreement {
+}
+.modal-form-checkbox {
+}
+.modal-form-desc {
+    font-size: 12px;
+line-height: 1.3;
+letter-spacing: 0.04em;
+color: #757575;
+}
+.link {
+}
+.modal-form-btn {
+    width: 169px;
+    height: 56px;
+    left: 635px;
+    top: 584px;
+background: var(--iris);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--white);
+display: block;
+padding: 16px 32px;
+border-radius: 4px;
+transition: background-color var(--anim);
+margin-left: auto;
+margin-right: auto;
+border: none;
+cursor: pointer;
+}
+.btn {
+}
+
+label{
+    display: block;
+}
+
+.modal-div{
+    position: relative;
+}
+
+.modal-svg{
+    position: absolute;
 }
